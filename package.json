@@ -1,0 +1,11 @@
+{
+  "name": "tjunaschool",
+  "version": "1.0.0",
+  "description": "Tjuna School assignment",
+  "main": "index.js",
+  "author": "Abdelkarim Ouzzine",
+  "license": "MIT",
+  "dependencies": {
+    "sass": "^1.0.0-beta.2"
+  }
+}

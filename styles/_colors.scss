@@ -1,0 +1,29 @@
+nav {
+  background-color: #27233A;
+}
+
+body {
+  background-color: #90a4ae;
+}
+
+.article-* {
+  background-color: blue;
+}
+
+.header-title, .nav-list, .nav-list-selector {
+  color: white;
+}
+
+.nav-list-item:hover, .footer-list-item:hover {
+  -webkit-opacity: 2;
+  -moz-opacity: 2;
+  opacity: 2;
+}
+
+[class^="article-"] {
+  background-color: #cfd8dc;
+  -webkit-box-shadow: 10px 10px 27px -4px rgba(0,0,0,0.4);
+  -moz-box-shadow: 10px 10px 27px -4px rgba(0,0,0,0.4);
+  box-shadow: 10px 10px 27px -4px rgba(0,0,0,0.4);
+}
+

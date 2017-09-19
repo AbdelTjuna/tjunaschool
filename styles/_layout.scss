@@ -1,0 +1,51 @@
+
+nav {
+  height: 4.5em;
+}
+
+.wrapper {
+  display: inline-flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+
+}
+
+.header-title {
+  float: left;
+  padding-top: 5px;
+  padding-left: 10px;
+  width: 50%;
+}
+
+[class^="article-"] {
+  width:20%;
+}
+
+.nav-list {
+  display: flex;
+  text-align: center;
+  float: right;
+}
+
+.footer-list{
+  display: flex;
+  padding-right: 0;
+  padding-left: 0;
+}
+
+.nav-list-item, .footer-list-item {
+  list-style: none;
+  padding-right: 10px;
+  padding-left: 10px;
+
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+}
+
+article {
+  padding-left: 10px;
+  padding-right: 10px;
+}
