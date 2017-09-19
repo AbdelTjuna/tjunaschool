@@ -19,6 +19,9 @@ nav {
 
 [class^="article-"] {
   width:20%;
+  margin-bottom: 5%;
+  margin-left: 5%;
+  margin-right: 5%;
 }
 
 .nav-list {
@@ -43,6 +46,10 @@ nav {
 footer {
   display: flex;
   justify-content: center;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
 }
 
 article {
